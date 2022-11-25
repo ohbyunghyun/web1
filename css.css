@@ -2,6 +2,10 @@ body {
     background-color: black;
 }
 
+header:hover {
+    color: gray;
+}
+
 header {
     color: white;
     width: 200px;
@@ -11,15 +15,20 @@ header {
     top: 0px;
     line-height: 50px;
     font-size: 40px;
+    animation:fadeInLeft 3s;
 }
 
 nav {
     color: white;
     top: 0px;
-    left: 1570px;
-    width: 350px;
+    left: 1500px;
+    width: 400px;
     height: 50px;
     position: absolute;
+}
+
+#aa:hover{
+    color: gray;
 }
 
 #aa {
@@ -42,6 +51,7 @@ footer {
     width: 1400px;
     height: 70px;
     position: absolute;
+    animation:fadeInUp 7s;
 }
 
 #back { 
@@ -85,22 +95,18 @@ footer {
 @keyframes fadeInLeft{
     0%{
         opacity: 0;
-        transform: translate3d(100%,0,0);
+        transform: translate3d(0,0,0);
     }
     to{
         opacity: 1;
         transform: translateZ(0);
     }
 }
-header {
-    position: absolute;
-    animation: fadeInLeft 2s;
-}
 
 @keyframes fadeInRight{
     0% {
-    opacity: 0;
-    transform: translate3d(100%,0,0);
+    opacity: 0.1;
+    transform: translate3d(120%,0,0);
     }
     to {
     opacity: 1;
@@ -109,27 +115,23 @@ header {
 }
 .menus {
     position: absolute;
-    animation:fadeInRight 2s;
+    animation:fadeInRight 3s;
 }
 
 @keyframes fadeInUp{
     0% {
     opacity: 0.3;
-    transform: translate3d(0,100%,0);
+    transform: translate3d(0,150%,0);
     }
     to {
     opacity: 1;
     transform: translateZ(0);
     }
 }
-.foot {
-    position: absolute;
-    animation:fadeInUp 2s;
-}
 
 @keyframes fadeInLeft{
     0% {
-    opacity: 0.3;
+    opacity: 0;
     transform: translate3d(0,0,0);
     }
     to {
@@ -139,7 +141,11 @@ header {
 }
 main {
     position: absolute;
-    animation:fadeInLeft 2s;
+    animation:fadeInLeft 5s;
+}
+
+#kakao:hover {
+    background-color: white;
 }
 
 #kakao {
@@ -148,16 +154,28 @@ main {
     margin-left: 1870px;
 }
 
+#github:hover {
+    background-color: white;
+}
+
 #github {
     position: absolute;
     margin-top: 340px;
     margin-left: 1870px;
 }
 
+#face:hover {
+    background-color: white;
+}
+
 #face {
     position: absolute;
     margin-top: 380px;
     margin-left: 1870px;
+}
+
+#gmail:hover {
+    background-color: white;
 }
 
 #gmail {
