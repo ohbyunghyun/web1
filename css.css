@@ -1,0 +1,167 @@
+body {
+    background-color: black;
+}
+
+header {
+    color: white;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    line-height: 50px;
+    font-size: 40px;
+}
+
+nav {
+    color: white;
+    top: 0px;
+    left: 1570px;
+    width: 350px;
+    height: 50px;
+    position: absolute;
+}
+
+#aa {
+    color: white;
+    list-style-type: none;
+    text-decoration-line: none;
+    padding: 7px;
+    font-size: 25px;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+}
+
+footer {
+    color: white;
+    margin-top: 830px;
+    margin-left: 250px;
+    width: 1400px;
+    height: 70px;
+    position: absolute;
+}
+
+#back { 
+    position: absolute;
+    margin-top: 60px;
+    opacity: 0.4;
+}
+
+#main2 {
+    position: absolute;
+    color: white;
+    margin-top: 290px;
+    margin-left: 300px;
+    width: 700px;
+}
+
+#main1 {
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+#main4 {
+    position: absolute;
+    color: white;
+    margin-top: 490px;
+    margin-left: 650px;
+    width: 700px;
+}
+
+#main3 {
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    margin-top: 400px;
+    margin-left: 650px;
+}
+
+@keyframes fadeInLeft{
+    0%{
+        opacity: 0.3;
+        transform: translate3d(100%,0,0);
+    }
+    to{
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+header {
+    position: absolute;
+    animation: fadeInLeft 2s;
+}
+
+@keyframes fadeInRight{
+    0% {
+    opacity: 0.3;
+    transform: translate3d(100%,0,0);
+    }
+    to {
+    opacity: 1;
+    transform: translateZ(0);
+    }
+}
+.menus {
+    position: absolute;
+    animation:fadeInRight 2s;
+}
+
+@keyframes fadeInUp{
+    0% {
+    opacity: 0.3;
+    transform: translate3d(0,100%,0);
+    }
+    to {
+    opacity: 1;
+    transform: translateZ(0);
+    }
+}
+.foot {
+    position: absolute;
+    animation:fadeInUp 2s;
+}
+
+@keyframes fadeInLeft{
+    0% {
+    opacity: 0.3;
+    transform: translate3d(0,0,0);
+    }
+    to {
+    opacity: 1;
+    transform: translateZ(0);
+    }
+}
+main {
+    position: absolute;
+    animation:fadeInLeft 2s;
+}
+
+#kakao {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 1870px;
+}
+
+#github {
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 1870px;
+}
+
+#face {
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 1870px;
+}
+
+#gmail {
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 1870px;
+}
